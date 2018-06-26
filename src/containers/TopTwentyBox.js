@@ -18,7 +18,7 @@ class TopTwentyBox extends React.Component {
   render(){
     return (
       <div>
-      <p>This is a TopTwentyBox</p>
+      <p>This is the UK Top 20 Songs</p>
       <SongList songs={this.state.songs}/>
     </div>
     )
